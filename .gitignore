@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# AI models
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Documents and user data
+documents/
+data/
+uploads/
+
+# Logs
+logs/
+*.log
+
+# PCAP / network captures
+pcaps/
+*.pcap
+*.pcapng
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
